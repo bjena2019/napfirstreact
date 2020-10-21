@@ -27,7 +27,15 @@
 .App-link {
   color: #61dafb;
 }
-
+header {
+  position: relative;
+}
+header h1 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  text-align: center;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

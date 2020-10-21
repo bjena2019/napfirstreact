@@ -3,10 +3,17 @@ import React from 'react';
 import './App.css';
 import './myapp.scss';
 import Header from './components/header';
+// import Beader from './components/Banner';
+import Hero from './components/Hero';
+import Banner from './components/Banner';
 
 function App() {
   return (
+    <>
     <Header></Header>
+    <Hero></Hero>
+    <Banner></Banner>
+    </>
   );
 }
 
